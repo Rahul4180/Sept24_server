@@ -19,7 +19,7 @@ const cron = require('node-cron');
 const axios = require('axios');
 
 // Your server URL
-const serverUrl = 'https://july-22-server.onrender.com/';
+const serverUrl = 'https://sept24-server.onrender.com';
 
 // Define the cron job
 cron.schedule('*/5 * * * *', async () => {
